@@ -1,8 +1,35 @@
-node_modules
-dist
-.mastra
-.env.development
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+ENV/
+env/
+.venv/
+
+# Environment variables
 .env
+*.env
+.env.development
+
+# User preferences files (contains user data)
+user_prefs_*.json
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Database
 *.db
 *.db-*
-.DS_Store
